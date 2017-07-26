@@ -31,13 +31,9 @@ body{
 /*-- banner --*/
 .banner[role="chinesca"]{
 	background: url(../img/fondosChinesca/FondoChinesca3.jpg) no-repeat 0px 0px;
-/* 	background: url(../img/fondosChinesca/FondoChinesca4.jpeg) no-repeat 0px 0px; */
-/* 	background: url(../img/fondosChinesca/FondoChinesca9.jpg) no-repeat 0px 0px; */
     background-size: cover;
 }.banner{
-/* 	background: url(../img/fondosChinesca/FondoChinesca3.jpg) no-repeat 0px 0px; */
 	background: url(../img/centroHistoricoMexicali.jpg) no-repeat 0px 0px;
-/* 	background: url(../img/fondosChinesca/FondoChinesca9.jpg) no-repeat 0px 0px; */
     background-size: cover;
 }
 .agileinfo-dot {
@@ -237,21 +233,17 @@ ul.dropdown-menu li a:hover {
     font-family: 'Merienda One', cursive;
 }
 .w3-welcome-heading h2[role="titulo2Chinesca"]{
-/*     color: #FCB941; */
 	color: rgb(255,255,0);
     font-size: 2em;
     margin: 0;
     text-align: center;
     text-transform: capitalize;
-/*     font-family: 'Merienda One', cursive; */
 		font-family: "Last Ninja";
 }
 h3[role="titulo3Chinesca"]{
-/* 		color: #FCB941; */
 	color: rgb(255,255,0);
     font-size: 1.5em;
     margin: 0;
-/*     text-align: center; */
     text-transform: capitalize;
 		font-family: "Luteous Exodus";
 }
@@ -298,7 +290,6 @@ img.zoom-img:hover{
 .w3l-welcome-text p {
     font-size: .9em;
     margin: 0;
-/*     color: #999999; */
 		color: black;
     line-height: 1.8em;
     text-align: center;
@@ -307,10 +298,7 @@ img.zoom-img:hover{
 		font-family: "Orient1 Normal";
     font-size: 1em;
     margin: 0;
-/*     color: #999999; */
 	color:#fff;
-/* 	color: rgb(255,255,0); */
-/*     line-height: 1.8em; */
     text-align: justify;
 }
 /*-- //welcome --*/
@@ -319,8 +307,14 @@ img.zoom-img:hover{
     text-align: center;
     background: #fcb941;
 }
+.services[role="chinesca"]{
+		background: #8A191A;
+}
 .w3-welcome-heading h3{
 	color:#FFFFFF;
+}
+.w3-welcome-heading[role="chinesca"] h3{
+	color: rgb(255,255,0);
 }
 .services-w3ls-row{
 	margin:4em 0 0 0;
@@ -398,7 +392,7 @@ img.zoom-img:hover{
 /*-- //services --*/  
 /*-- feedback --*/
 .feedback_dot,.choose-dot{
-	background: url(../images/dott.png)repeat 0px 0px;
+	background: url(../img/images/dott.png)repeat 0px 0px;
     background-size: 3px;
     -webkit-background-size: 3px;
     -moz-background-size: 3px;
@@ -406,13 +400,11 @@ img.zoom-img:hover{
     -ms-background-size: 3px;
 }
 .feedback[role="chinesca"]{
-/* 	background:url(../images/4.jpg) no-repeat 0px 0px; */
 	background:url(../../../img/fondosChinesca/FondoChinesca9.jpg) no-repeat 0px 0px;
 	background:size:cover;
 }
 .feedback{
 	background:url(../img/centroHistoricoMexicali2.jpg) no-repeat 0px 0px;
-/* 	background:url(../../../img/fondosChinesca/FondoChinesca9.jpg) no-repeat 0px 0px; */
 	background:size:cover;
 }
 .jarallax {
@@ -719,6 +711,9 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter{
 }
 /*-- //choose --*/
 /*-- team --*/
+.team {
+	background-color: rgba(0,0,0,0.8);
+}
 .team-grids {
     margin: 4em 0 0 0;
 }
